@@ -241,7 +241,7 @@ restart:
 
 		if (ret == 0) {
 			/* should not happen because timeout is -1 */
-			break;
+			goto restart;
 		}
 
 		/* Process work here */
