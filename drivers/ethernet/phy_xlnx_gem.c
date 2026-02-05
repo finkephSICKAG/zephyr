@@ -870,6 +870,12 @@ static struct phy_xlnx_gem_supported_dev phy_xlnx_gem_supported_devs[] = {
 		.identifier  = "Marvell Alaska 88E151x"
 	},
 	{
+		.phy_id      = PHY_MRVL_PHY_ID_MODEL_88E1116,
+		.phy_id_mask = PHY_MRVL_PHY_ID_MODEL_MASK,
+		.api         = &phy_xlnx_gem_marvell_alaska_api,
+		.identifier  = "Marvell Alaska 88E1116"
+	},
+	{
 		.phy_id      = PHY_TI_PHY_ID_MODEL_DP83822,
 		.phy_id_mask = PHY_TI_PHY_ID_MODEL_MASK,
 		.api         = &phy_xlnx_gem_ti_dp83822_api,
